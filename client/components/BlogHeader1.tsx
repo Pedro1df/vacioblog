@@ -1,9 +1,4 @@
-import { useNavigate } from "react-router-dom";
-import { ArrowLeft } from "lucide-react";
-
 export default function BlogHeader1() {
-  const navigate = useNavigate();
-
   return (
     <div className="bg-gradient-to-r from-gray-900 via-red-600 to-black text-white py-16 sm:py-20 border-b-4 border-red-600">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -22,17 +17,6 @@ export default function BlogHeader1() {
             </div>
             <span className="text-sm font-bold">Expertos Técnicos</span>
           </div>
-        </div>
-
-        {/* Back Button */}
-        <div className="mt-8">
-          <button
-            onClick={() => navigate("/")}
-            className="inline-flex items-center gap-2 px-6 py-3 bg-white text-gray-900 font-bold rounded-lg hover:bg-gray-100 transition-colors border-2 border-gray-900 hover:shadow-lg"
-          >
-            <ArrowLeft size={20} />
-            Volver a la página principal
-          </button>
         </div>
       </div>
     </div>
