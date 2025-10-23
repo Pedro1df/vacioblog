@@ -26,7 +26,9 @@ export default function ArticleCard1({ article, onClick }: ArticleCard1Props) {
           <span className="text-xs font-bold uppercase tracking-wider text-white bg-red-600 px-2 py-1 rounded">
             {article.category}
           </span>
-          <span className="text-xs text-gray-700 font-semibold">{article.readTime} min</span>
+          <span className="text-xs text-gray-700 font-semibold">
+            {article.readTime} min
+          </span>
         </div>
 
         <h3 className="text-lg font-bold text-gray-900 mb-2 line-clamp-2 group-hover:text-red-600 transition-colors">

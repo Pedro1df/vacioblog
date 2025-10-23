@@ -20,7 +20,8 @@ const NotFound = () => {
         </div>
         <h1 className="text-4xl font-bold mb-4">Página no encontrada</h1>
         <p className="text-lg text-blue-100 mb-8 leading-relaxed">
-          Lo sentimos, la página que estás buscando no existe. Pero no te preocupes, puedes volver al inicio y explorar nuestros artículos.
+          Lo sentimos, la página que estás buscando no existe. Pero no te
+          preocupes, puedes volver al inicio y explorar nuestros artículos.
         </p>
         <a
           href="/"

@@ -7,7 +7,10 @@ interface ArticleDetailProps {
   onClose: () => void;
 }
 
-export default function ArticleDetail({ article, onClose }: ArticleDetailProps) {
+export default function ArticleDetail({
+  article,
+  onClose,
+}: ArticleDetailProps) {
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose();

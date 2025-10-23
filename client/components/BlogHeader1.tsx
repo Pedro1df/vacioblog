@@ -7,13 +7,21 @@ export default function BlogHeader1() {
             Centro de Bombas de Vacío
           </h1>
           <p className="text-xl text-gray-100 mb-8 leading-relaxed font-semibold">
-            Aprende todo sobre bombas de vacío, su funcionamiento, aplicaciones industriales y mejores prácticas. Desde fundamentos hasta tecnologías avanzadas, somos tu recurso completo.
+            Aprende todo sobre bombas de vacío, su funcionamiento, aplicaciones
+            industriales y mejores prácticas. Desde fundamentos hasta
+            tecnologías avanzadas, somos tu recurso completo.
           </p>
           <div className="flex items-center gap-2 text-gray-100">
             <div className="flex -space-x-2">
-              <div className="w-8 h-8 rounded-full bg-red-400 flex items-center justify-center text-xs font-bold text-white border-2 border-gray-900">I</div>
-              <div className="w-8 h-8 rounded-full bg-red-500 flex items-center justify-center text-xs font-bold text-white border-2 border-gray-900">T</div>
-              <div className="w-8 h-8 rounded-full bg-red-600 flex items-center justify-center text-xs font-bold text-white border-2 border-gray-900">V</div>
+              <div className="w-8 h-8 rounded-full bg-red-400 flex items-center justify-center text-xs font-bold text-white border-2 border-gray-900">
+                I
+              </div>
+              <div className="w-8 h-8 rounded-full bg-red-500 flex items-center justify-center text-xs font-bold text-white border-2 border-gray-900">
+                T
+              </div>
+              <div className="w-8 h-8 rounded-full bg-red-600 flex items-center justify-center text-xs font-bold text-white border-2 border-gray-900">
+                V
+              </div>
             </div>
             <span className="text-sm font-bold">Expertos Técnicos</span>
           </div>

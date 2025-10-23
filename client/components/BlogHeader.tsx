@@ -12,15 +12,25 @@ export default function BlogHeader() {
             Aprende Desarrollo Web
           </h1>
           <p className="text-xl text-blue-100 mb-8 leading-relaxed">
-            Explora artículos sobre diseño, desarrollo y las últimas tendencias tecnológicas. Desde React hasta TypeScript, cubrimos todo lo que necesitas saber.
+            Explora artículos sobre diseño, desarrollo y las últimas tendencias
+            tecnológicas. Desde React hasta TypeScript, cubrimos todo lo que
+            necesitas saber.
           </p>
           <div className="flex items-center gap-2 text-blue-100 mb-8">
             <div className="flex -space-x-2">
-              <div className="w-8 h-8 rounded-full bg-blue-300 flex items-center justify-center text-xs font-bold text-blue-700">M</div>
-              <div className="w-8 h-8 rounded-full bg-blue-400 flex items-center justify-center text-xs font-bold text-blue-700">C</div>
-              <div className="w-8 h-8 rounded-full bg-blue-300 flex items-center justify-center text-xs font-bold text-blue-700">A</div>
+              <div className="w-8 h-8 rounded-full bg-blue-300 flex items-center justify-center text-xs font-bold text-blue-700">
+                M
+              </div>
+              <div className="w-8 h-8 rounded-full bg-blue-400 flex items-center justify-center text-xs font-bold text-blue-700">
+                C
+              </div>
+              <div className="w-8 h-8 rounded-full bg-blue-300 flex items-center justify-center text-xs font-bold text-blue-700">
+                A
+              </div>
             </div>
-            <span className="text-sm">Escrito por desarrolladores apasionados</span>
+            <span className="text-sm">
+              Escrito por desarrolladores apasionados
+            </span>
           </div>
 
           <button
